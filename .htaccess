@@ -1,0 +1,19 @@
+RewriteEngine On
+
+#RewriteCond %{HTTP_HOST} != extreme-shoes
+
+#RewriteRule (.*) http://www.extreme-shoes.ru/$1 [R]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-l
+RewriteCond %{REQUEST_URI} ^.+[/]$
+
+RewriteRule (.*) /index.php
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-l
+RewriteCond %{REQUEST_URI} ^.+[^/]$
+
+RewriteRule (.*) /$1/ [R]

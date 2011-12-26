@@ -1,0 +1,10 @@
+html, body { width: 100%; padding: 0px; margin: 0px; text-align: center; font-family: Georgia, "Times New Roman", Times, serif; }
+body {  }
+div#main { margin: auto; width: 430px; }
+div#main p { margin-top: 30px; }
+div#main p.img { margin-top: 0px; }
+div#main p.bt { margin-top: 10px; text-align: center; }
+div#main p span.caption { font-size: 26px; font-weight: bold; }
+div#main p span.desc { font-size: 24px; }
+div#main p span.desc2 { font-size: 16px; }
+div#main p span.code { font-size: 20px; }

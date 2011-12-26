@@ -1,0 +1,109 @@
+
+#Content h3 { font-family: Arial, sans-serif; font-size: 18px; margin: 0px; padding: 0px 2px; color: #669933; }
+#Content h4 { margin-bottom: 10px; padding: 0px 2px; }
+
+#Content input, #Content select, #Content button, #Content textarea { border: 1px #996633 solid; }
+#Content button { background-color: #F1EFE2; cursor: pointer; }
+
+#Content div.news_b { margin-top: 20px; font-size: 12px; }
+#Content div.news_b span.n_det_link a { font-weight: normal; }
+
+#Content div.head_brand_logo { margin-bottom: 10px; margin-left: 2px; font-size: 10px; }
+#Content div.head_brand_logo p { margin-top: 5px; line-height: 1.6; font-size: 10px; }
+
+#Content span.art { white-space: nowrap; }
+
+#Content a, #Content a:visited { color:#CC6600; text-decoration: underline; }
+#Content a:hover { color: #0077AA; text-decoration: none; }
+
+#Content p.brand_prod_link { text-indent: 0px; font-weight: bold; }
+#Content p.footnote { font-size: 10px; margin-top: 20px; }
+
+#Content table.shop_list_table { margin: auto; }
+#Content table.shop_list_table td { padding: 10px; width: 200px; font-size: 10px; vertical-align: top; text-align: center; border: 2px #F1EFE2 solid; }
+#Content table.shop_list_table td div.item_name { font-size: 12px; }
+
+#Content table.shop_list_table td table.params { width: 180px; margin: auto; }
+#Content table.shop_list_table td table.params td { padding: 2px; border: 0px; text-align: left; }
+#Content table.shop_list_table td table.params td.pn { width: 40%; text-align: right; font-weight: bold; }
+#Content table.shop_list_table td table.params td.tsb { text-align: center; }
+#Content table.shop_list_table td table.params td.tsb div { height: 16px; }
+
+#Content table.shop_list_table td table.params td select { width: 65px; font-size: 10px; }
+#Content table.shop_list_table td table.params td input { width: 58px; font-size: 10px; text-align: right; }
+#Content table.shop_list_table td table.params td button { width: 135px; font-size: 10px; }
+
+#Content div.list_all_num { margin-top: 10px; text-align: center; font-size: 10px; font-weight: bold; }
+#Content div.search_msg { margin-top: 1em; padding-left: 10px; font-size: 12px; font-weight: bold; }
+
+
+#Content div.item_image { margin-top: 20px; padding: 5px; }
+#Content div.item_description p { font-size: 12px; }
+
+#Content table.item_full_params { width: 99%; border-collapse: collapse; }
+#Content table.item_full_params td { padding: 5px; font-size: 12px; background-color: #F1EFE2; color: #996633; border-bottom: 1px #FFFFFF solid; }
+#Content table.item_full_params td.pn { width: 30%; font-weight: bold; }
+#Content table.item_full_params td.tsb { background-color: #FFFFFF; text-align: center; }
+#Content table.item_full_params td.tsb div { height: 28px; }
+#Content table.item_full_params td span.pn { width: 30%; font-weight: bold; }
+
+#Content table.item_full_params td span.main_param { color: #669933; font-weight: bold; }
+#Content table.item_full_params2 td span.main_param { color: #669933; font-weight: bold; }
+
+#Content table.item_full_params td input { width: 55px; text-align: right; font-size: 12px; }
+#Content table.item_full_params td select { width: 62px; font-size: 12px; }
+#Content table.item_full_params td button { width: 120px; font-size: 12px; font-weight: bold; }
+
+
+#Content div.shop_cart_item { padding-top: 20px; }
+
+#Content div.shop_cart_item table { width: 99%; }
+#Content div.shop_cart_item table td { font-size: 12px; padding: 2px; border: 1px #F1EFE2 solid; }
+#Content div.shop_cart_item table td.pn { width: 25%; font-weight: bold; }
+#Content div.shop_cart_item table td.image { width: 25%; padding: 20px; text-align: center; font-size: 12px; }
+
+#Content div.shop_cart_item table td span.main_param { color: #669933; font-weight: bold; }
+
+#Content div.shop_cart_item table td input, #Content div.shop_cart_item table td button { font-size: 10px; }
+#Content div.shop_cart_item table td input { text-align: right; width: 30px; padding: 2px; }
+#Content div.shop_cart_item table td button { width: 100px; }
+* html #Content div.shop_cart_item table td button { height: 18px; }
+*+html #Content div.shop_cart_item table td button { height: 18px; }
+#Content div.shop_cart_item table td button.sm { width: 30px; }
+
+#Content div.shop_cart_item table td div.link_details { font-size: 10px; }
+#Content div.shop_cart_item table td span.faq_link { font-size: 8px; }
+
+#Content div.all_cart_act { padding-top: 10px; text-align: center; }
+#Content div.all_cart_act button { width: 200px; padding: 5px; font-size: 12px; font-weight: bold; }
+
+
+#Content table.shop_order { width: 99% }
+#Content table.shop_order td { font-size: 12px; padding: 5px; border: 1px #F1EFE2 solid; }
+#Content table.shop_order td.pn { width: 40%; font-weight: bold; }
+#Content table.shop_order td.bt { text-align: center; }
+
+#Content table.shop_order td table.delivery_opt td { border: 0px; padding: 0px; font-size: 10px; }
+#Content table.shop_order td table.delivery_opt td.opt { width: 1%; padding-left: 0px; }
+#Content table.shop_order td table.delivery_opt td.opt input { width: auto; height: auto; margin-left: 0px; padding: 0px; border: 0px; }
+
+#Content table.shop_order td input { width: 250px; padding: 2px; font-size: 12px; }
+#Content table.shop_order td button { width: 200px; padding: 5px; font-size: 14px; font-weight: bold; }
+#Content table.shop_order td textarea { width: 250px; height: 100px; padding: 2px; font-size: 12px; }
+
+#Content table.shop_order td ol { margin: 0px; margin-left: 10px; padding-left: 10px; }
+#Content table.shop_order td ol li { margin: 3px 0px; font-size: 10px; }
+
+#Content table.shop_order td img#captcha { margin-bottom: 5px; }
+#Content table.shop_order td span.error_text { color: #FF0000; font-size: 10px; }
+#Content table.shop_order td span.main_error_text { color: #FF0000; font-size: 12px; font-weight: bold; }
+#Content table.shop_order td span.comment { font-size: 10px; }
+#Content table.shop_order td span.small_link button { width: 100px; padding: 2px; font-size: 8px; }
+
+
+#Content div.faq_item { margin-top: 20px; font-size: 14px; }
+#Content div.faq_item p.question { font-weight: bold; }
+
+#Content div#contacts p.contact_p { text-indent: 0px; margin-top: 20px; font-size: 14px; font-weight: bold; }
+#Content div#contacts p.img { padding-top: 10px; }
+#Content div#contacts p span.ct { font-weight: bold; }
