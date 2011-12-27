@@ -36,8 +36,8 @@
 		});
 		if ( all_num > 0 ) {
 			$("#sc_num").text(" (" + all_num + ")");
-			$("#num_param").text(all_num.number_format(0));
-			$("#sum_param").html(all_sum.number_format(2, ".", "&nbsp;"));
+			$("#num_param").text(all_num.number_format(0, ".", " "));
+			$("#sum_param").text(all_sum.number_format(2, ".", " "));
 		}
 		else {
 			$("div.all_cart_act").remove();
@@ -157,7 +157,7 @@
 				"num": new_num
 			},
 			success: function(data) {
-				$("span.num_param", this_form.parents("div.shop_cart_item")).text(new_num.number_format(0));
+				$("span.num_param", this_form.parents("div.shop_cart_item")).text(new_num.number_format(0, ".", " "));
 				$("span.sum_param", this_form.parents("div.shop_cart_item")).text(
 					($("span.price_param", this_form.parents("div.shop_cart_item")).text().replace(/\s/g, "")*new_num).number_format(2, ".", " ")
 				);
@@ -187,7 +187,7 @@
 				"num": new_num
 			},
 			success: function(data) {
-				$("span.num_param", this_form.parents("div.shop_cart_item")).text(new_num.number_format(0));
+				$("span.num_param", this_form.parents("div.shop_cart_item")).text(new_num.number_format(0, ".", " "));
 				$("span.sum_param", this_form.parents("div.shop_cart_item")).text(
 					($("span.price_param", this_form.parents("div.shop_cart_item")).text().replace(/\s/g, "")*new_num).number_format(2, ".", " ")
 				);
