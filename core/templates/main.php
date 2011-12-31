@@ -48,7 +48,7 @@
 <link rel="stylesheet" media="all" type="text/css" href="/styles/style.css" />
 <link rel="stylesheet" media="all" type="text/css" href="/styles/content.css" />
 <script type="text/javascript" src="/script/jquery-1.7.1.min.js"></script>
-<script type="text/javascript" src="/script/main1.js"></script>
+<script type="text/javascript" src="/script/main.js"></script>
 </head>
 
 <body>

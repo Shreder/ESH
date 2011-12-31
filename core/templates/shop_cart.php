@@ -47,15 +47,6 @@
 	</form>
 </td></tr>
 <tr><td class="pn">Сумма: </td><td><span class="sum_param"><?=number_format($items[$i]["sum"], 2, ".", " ")?></span> руб.</td></tr>
-<?php /* ?>
-<tr><td class="pn">Распечатать купон: </td><td><form method="post" action="/catalog/coupon/" target="_blank">
-	<input type="hidden" name="_action" value="create_coupon" />
-	<input type="hidden" name="articul" value="<?=$items[$i]["articul_lat"]?>" />
-	<?php if (!empty($items[$i]["size"])): ?><input type="hidden" name="size" value="<?=$items[$i]["size"]?>" /><?php endif; ?>
-	<input type="hidden" name="num" value="<?=$items[$i]["num"]?>" />
-	<button name="sbc<?=$i?>" type="submit">Распечатать</button> <span class="faq_link"><a href="/faq/">Что это такое?</a></span>
-</form></td></tr>
-<?php */ ?>
 </table>
 </div>
 <?php
@@ -65,12 +56,6 @@
 <form method="post" action="/shop_order/" onsubmit="this.sbo.disabled = true;">
 <button name="sbo" type="submit">Оформить заказ</button>
 </form>
-<?php /* ?>
-<form method="post" action="/" onsubmit="if (!confirm('Корзина будет полностью очищена.\nПродолжить?'))  { return false } else { this.sbc.disabled = true; }">
-<input type="hidden" name="_action" value="clear_cart" />
-<button name="sbc" type="submit">Очистить корзину</button>
-</form>
-<?php */ ?>
 <form name="fc" method="post" action="/">
 <input type="hidden" name="_action" value="clear_cart" />
 <button name="sbc" type="submit">Очистить корзину</button>

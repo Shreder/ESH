@@ -55,17 +55,3 @@
 		</table>
 	</form>
 </div>
-<?php /* ?>
-<h4>Распечатать купон</h4>
-<div>
-	<form method="post" action="/catalog/coupon/" target="_blank">
-		<input type="hidden" name="_action" value="create_coupon" />
-		<input type="hidden" name="articul" value="<?=$item["articul_lat"]?>" />
-		<table class="item_full_params">
-		<?php if ( sizeof($item_sizes)>0 ): ?><tr><td class="pn">Размер:</td><td><select name="size"><?php foreach ($item_sizes as $size): $size = trim($size); ?><option value="<?=$size?>"><?=$size?></option><?php endforeach; ?></select></td></tr><?php endif; ?>
-		<tr><td class="pn">Количество:</td><td><input type="text" name="num" value="1" /></td></tr>
-		<tr><td colspan="2" style="text-align: center"><button name="sb2" type="submit">Распечатать</button></td></tr>
-		</table>
-	</form>
-</div>
-<?php */ ?>
